@@ -73,8 +73,6 @@ button {
   font-size: 2rem;
 }
 
-/* -------------------------------------- our menu style 
---------------------------------------------------------------------------- */
 header {
   padding: 0 20rem;
 }
@@ -92,7 +90,7 @@ header nav .left-side-menu {
   justify-content: space-between;
   align-items: center;
   width: 50%;
-  /* background-color: #e2efff; */
+ 
 }
 
 header nav .left-side-menu a img {
@@ -122,7 +120,7 @@ header nav .left-side-menu .sub-menu a li:hover {
   color: var(--button-background);
 }
 
-/* right side menu css style  */
+
 
 header .right-side-menu {
   width: 50%;
@@ -165,8 +163,7 @@ header .right-side-menu .sub-menu a li:hover {
   color: var(--button-background);
 }
 
-/* -------------------------------------- our hero css style 
---------------------------------------------------------------------------- */
+
 .main-hero-section {
   padding: 0 20rem;
   width: 100%;
@@ -213,8 +210,6 @@ header .right-side-menu .sub-menu a li:hover {
   margin-right: 2.5rem;
 }
 
-/* ------------------- our hero right side css style 
------------------------------------- */
 .main-hero-section .hero-right-side {
   width: 50%;
   height: 100vh;
@@ -234,8 +229,7 @@ header .right-side-menu .sub-menu a li:hover {
   margin-right: 43rem;
 }
 
-/* ------------------- our 2nd section left side css style 
------------------------------------- */
+
 
 .common-section {
   width: 100%;
@@ -266,8 +260,7 @@ header .right-side-menu .sub-menu a li:hover {
   margin-top: 2.5rem;
 }
 
-/* ------------------- our 2nd section right side css style 
------------------------------------- */
+
 
 .common-section .right-side {
   width: inherit;
@@ -316,8 +309,7 @@ header .right-side-menu .sub-menu a li:hover {
   color: #f0f7ff;
 }
 
-/* ------------------- our 3rd section  css style 
------------------------------------- */
+
 
 .section-third {
   width: 100%;
@@ -351,7 +343,7 @@ header .right-side-menu .sub-menu a li:hover {
 .section-third .section-third-task .task-2,
 .section-third .section-third-task .task-3 {
   padding-top: 2rem;
-  /* background: cornsilk; */
+ 
   text-align: center;
   transition: all 0.3s linear;
   border-radius: 2rem;
@@ -395,8 +387,7 @@ header .right-side-menu .sub-menu a li:hover {
   transform: rotate(360deg);
 }
 
-/* ------------------- our 4th section  css style 
------------------------------------- */
+
 
 #section-four .right-side h2 {
   width: 50rem;
@@ -408,8 +399,7 @@ header .right-side-menu .sub-menu a li:hover {
   margin: 0;
 }
 
-/* ------------------- our 5th section  css style 
------------------------------------- */
+
 
 #section-five .left-side img {
   margin: 0;
@@ -443,8 +433,6 @@ header .right-side-menu .sub-menu a li:hover {
   color: #f75d5d;
 }
 
-/* ------------------- our 6th section Footer css style 
------------------------------------- */
 
 footer {
   width: 100%;
@@ -480,8 +468,6 @@ footer .footer-div-5 a {
   font-size: 1.5rem;
 }
 
-/* ------------------- our 7th section social media css style 
------------------------------------- */
 
 .icon-bar {
   position: fixed;
@@ -538,8 +524,7 @@ footer .footer-div-5 a {
   background: #0077b5;
 }
 
-/* ----------------------------responsive website layout start 
- ---------------------------*/
+
 
 @media (max-width: 1620px) {
   header,
@@ -555,7 +540,7 @@ footer .footer-div-5 a {
   }
 }
 
-/* laptop devices  */
+
 @media (max-width: 1280px) {
   header,
   .main-hero-section,
@@ -575,7 +560,7 @@ footer .footer-div-5 a {
   }
 }
 
-/* tablet mode css style   */
+
 @media (max-width: 980px) {
   header,
   .main-hero-section,
@@ -596,7 +581,7 @@ footer .footer-div-5 a {
   .main-hero-section .hero-right-side img {
     width: 60rem;
     height: 60rem;
-    /* margin-left: -11rem; */
+    
     margin-right: 0;
     margin-top: 5rem;
   }
@@ -629,7 +614,7 @@ footer .footer-div-5 a {
     width: 35rem;
   }
 
-  /* section 3 style  */
+  
   .section-third {
     height: auto;
     padding: 0 5rem;
@@ -662,7 +647,7 @@ footer .footer-div-5 a {
     margin: 2rem 0;
   }
 
-  /* section 4 style  */
+  
 
   #section-four .right-side {
     order: 2;
@@ -678,7 +663,7 @@ footer .footer-div-5 a {
     margin-top: 5rem;
   }
 
-  /* section 5 style  */
+ 
 
   #section-five .right-side {
     order: 2;
@@ -696,7 +681,6 @@ footer .footer-div-5 a {
     margin-top: 5rem;
   }
 
-  /* section 6 style  */
   footer {
     width: 100%;
     padding: 3rem 5rem;
@@ -713,13 +697,13 @@ footer .footer-div-5 a {
     font-size: 1.5rem;
   }
 
-  /* icons bar  */
+  
   .icon-bar {
     top: 35%;
   }
 }
 
-/* mobile devices */
+
 @media (max-width: 770px) {
   header,
   .main-hero-section,
@@ -786,7 +770,7 @@ footer .footer-div-5 a {
     text-transform: uppercase;
   }
 
-  /* hero section css style  */
+  
   .main-hero-section {
     width: 100%;
     height: 80vh;
@@ -814,7 +798,7 @@ footer .footer-div-5 a {
 
   .main-hero-section .hero-right-side {
     order: 1;
-    /* width: 100%; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
